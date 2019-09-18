@@ -24,6 +24,7 @@ public static void main(String[] args) throws InterruptedException {
 	caps.setCapability("autoGrantPermissions","true");		
 
 	//Instantiate Appium Driver
+	//Test commit 122222
 			try {
 				driver = new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"), caps);
 				
